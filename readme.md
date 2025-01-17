@@ -8,16 +8,16 @@
 ## Stack
 Java, Spring Boot, Maven, Thymeleaf.
 ____
-## Краткое описание
-Данное Spring Boot приложение является простым калькулятором,
-основной функциональностью которого являются:
-<li>обработка данных, переданных через поле;</li>
-<li>вычисление выражения(-, +, /, *).</li>
+## Short description
+This Spring Boot app is a simple calculator.
+Main functionality:
+<li>input processing;</li>
+<li>calculation of the expression(-, +, /, *).</li>
 
 ___
-## Работа приложения
-### Кнопка get result:
-Запуск вычисления выражения;
+## How it works
+### Get Result button:
+Start of calculation;
 ### RESULT
 <details>
 <summary>OK</summary> 
@@ -31,9 +31,9 @@ Result is: Can't divide by zero
 </details>
 
 ___
-## Как запустить
-Для работы приложения необходимо:
-<li>настроить соединение.</li>
+## How to build
+You would need:
+<li>set the port in config file - application.yaml.</li>
 
 ```
 server:
